@@ -22,6 +22,7 @@ The `1` command are working with memory, saving something inside of it, and its 
 * **`0`** - **Reversed ASCII mode**. Given arguments are reversed and translated to ASCII character. Same as mode `1` in `0` command
 * **`1`** - **Number mode.** Saving in memory `int` number. Example `1 1 1 1` - saving number `1` in second cell of memory
 * **`2`** - **Copy mode.** Copies cell to other cell
+* **`3`** - **Index mode.** Saving in memory cell the index of a string from other cell. Example `1 0 3 1 2`, same as `mem[0] = mem[1][mem[2]]`  
 
 ### `2` - Math operations ###
 This command computing math and saves result in cell of memory. Operations are designated in a specific order: **+**, **-**, *, **/**,**%**
