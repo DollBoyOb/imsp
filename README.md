@@ -52,7 +52,6 @@ This command halts the programm
 ## Examples ##
 ### Hello World ###
 ```
-hello.imsp
 0 1 2 7 
 0 1 1 0 1
 0 1 8 0 1
@@ -68,7 +67,6 @@ hello.imsp
 
 ### Fibonacci sequence ###
 ```
-fib.imsp
 1 3 1 0
 1 4 1 1
 0 3 3
@@ -91,7 +89,6 @@ fib.imsp
 ```
 ### Truth Machine ###
 ```
-truthmachine.imsp
 0 4 0
 1 1 1 1
 3 0 0 2
