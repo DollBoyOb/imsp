@@ -21,7 +21,7 @@ while n!=len(f):
             if int(com[2]) == 2:
                 heap[int(com[1])] = heap[int(com[3])]
             else:
-                heap[int(com[1])] = [chr(int("".join(com[2:])[::-1])),int(com[3])][int(com[2])] 
+                heap[int(com[1])] = [chr(int("".join(com[3:])[::-1])),int(com[3])][int(com[2])] 
         case "2":
             ops = ["+", "-", "*", "/", "%"]
             heap[int(com[4])] = eval(str(heap[int(com[1])])+ops[int(com[2])]+str(heap[int(com[3])]))
