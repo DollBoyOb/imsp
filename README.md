@@ -1,6 +1,6 @@
 # IMSP
 
-**IMSP** -  Esoteric programming language inspired by spacing between gray slabs at the park. IMSP is an acronym, which stands for  **I**nterval **M**ejdu **S**erymi **P**litami (Spacing Between Gray Slabs)
+**IMSP** -  Turing-complete esoteric programming language inspired by spacing between gray slabs at the park. IMSP is an acronym, which stands for  **I**nterval **M**ejdu **S**erymi **P**litami (Spacing Between Gray Slabs)
 
 ## Tutorial ##
 IMSP have 9-cells memory and 6 commands with their modes.
