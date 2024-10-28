@@ -18,13 +18,17 @@ while n!=len(f):
             if com[1] == "3": print(heap[int(com[2])], end="")
             if com[1] == "4": heap[int(com[2])] = input()
         case "1": 
+            if int(com[2]) == 3:
+                heap[int(com[1])] = heap[int(com[3])][heap[int(com[4])]]
             if int(com[2]) == 2:
                 heap[int(com[1])] = heap[int(com[3])]
             else:
                 heap[int(com[1])] = [chr(int("".join(com[3:])[::-1])),int(com[3])][int(com[2])] 
         case "2":
-            ops = ["+", "-", "*", "/", "%"]
-            heap[int(com[4])] = eval(str(heap[int(com[1])])+ops[int(com[2])]+str(heap[int(com[3])]))
+            ops = ["+", "-", "*", "/", "%"]            
+            eval_str = str(heap[int(com[1])])+ops[int(com[2])]+str(heap[int(com[3])])
+            if [type(heap[int(com[1])]), type(heap[int(com[3])])] == [str,str]: eval_str = str(f" '{heap[int(com[1])]}'{ops[int(com[2])]}'{heap[int(com[3])]}' ")
+            heap[int(com[4])] = eval(eval_str)
         case "3":
             eqs = ["==", "<", ">", "!="]
             n+=(1-eval(str(f" '{heap[int(com[1])]}'{eqs[int(com[2])]}'{heap[int(com[3])]}' ")))
