@@ -17,6 +17,8 @@ value from cell of memory.
 ### `1` - Save in memory ###
 The `1` command are working with memory, saving something inside of it, and its have 3 modes:
 
+**Syntax** - `1 <cell pos> <mode> <other arguments>`
+
 * **`0`** - **Reversed ASCII mode**. Given arguments are reversed and translated to ASCII character. Same as mode `1` in `0` command
 * **`1`** - **Number mode.** Saving in memory `int` number. Example `1 1 1 1` - saving number `1` in second cell of memory
 * **`2`** - **Copy mode.** Copies cell to other cell
