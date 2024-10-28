@@ -20,7 +20,7 @@ while n!=len(f):
         case "1": 
             if int(com[2]) == 3:
                 heap[int(com[1])] = heap[int(com[3])][heap[int(com[4])]]
-            if int(com[2]) == 2:
+            elif int(com[2]) == 2:
                 heap[int(com[1])] = heap[int(com[3])]
             else:
                 heap[int(com[1])] = [chr(int("".join(com[3:])[::-1])),int(com[3])][int(com[2])] 
