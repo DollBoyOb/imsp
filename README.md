@@ -15,7 +15,7 @@ value from cell of memory.
 * **`4`** - **Memory-input mode**. Writes a value to a cell of memory by user
 
 ### `1` - Save in memory ###
-The `1` command are working with memory, saving something inside of it, and its have 3 modes:
+The `1` command are working with memory, saving something inside of it, and its have 4 modes:
 
 **Syntax** - `1 <cell pos> <mode> <other arguments>`
 
