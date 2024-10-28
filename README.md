@@ -41,7 +41,7 @@ If condition are false, the next are skips, in this example the condition are tr
 ```
 
 ### `4` - Jump ###
-This command just jumping on line code
+This command just jumping on line of code
 
 **Syntax** - `4 <number>`
 
