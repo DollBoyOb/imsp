@@ -31,6 +31,8 @@ This command computing math and saves result in cell of memory. Operations are d
  
 If we want to add first cell and second cell, and save the result in third cell, the code will be this: `2 0 0 1 2` 
 
+Its also works with strings!
+
 ### `3` - If ###
 Command working with conditions, and operators are designated in a specific order: **==, <, >, !=**
  
