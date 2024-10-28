@@ -27,7 +27,7 @@ while n!=len(f):
             heap[int(com[4])] = eval(str(heap[int(com[1])])+ops[int(com[2])]+str(heap[int(com[3])]))
         case "3":
             eqs = ["==", "<", ">", "!="]
-            n+=(1-eval(str(heap[int(com[1])])+eqs[int(com[2])]+str(heap[int(com[3])])))
+            n+=(1-eval(str(f" '{heap[int(com[1])]}'{eqs[int(com[2])]}'{heap[int(com[3])]}' ")))
         case "4":
             n = int(com[1])-1
         case "5": break
