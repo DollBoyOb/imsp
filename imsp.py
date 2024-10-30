@@ -16,7 +16,9 @@ while n!=len(f):
 
                 print(chr(int(num, int(com[1]))), end="")
             if com[1] == "3": print(heap[int(com[2])], end="")
-            if com[1] == "4": heap[int(com[2])] = input()
+            if com[1] == "4": 
+                heap[int(com[2])] = input()
+                if heap[int(com[2])].isdigit(): heap[int(com[2])] = int(heap[int(com[2])])
         case "1": 
             if int(com[2]) == 3:
                 heap[int(com[1])] = heap[int(com[3])][heap[int(com[4])]]
