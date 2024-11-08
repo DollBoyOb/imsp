@@ -57,7 +57,7 @@ This command just jumping on line of code
 **Syntax** - `4 <number>`
 
 ### `5` - Halt ###
-This command halts the programm
+This command halts the program
 
 
 ## Examples ##
