@@ -1,8 +1,6 @@
 # IMSP
 
-**IMSP** -  Turing-complete esoteric programming language inspired by spacing between gray slabs at the park. IMSP is an acronym, which stands for  **I**nterval **M**ejdu **S**erymi **P**litami (Spacing Between Gray Slabs)
-
-Needs Python 3.10 or higher
+**IMSP** -  Turing-complete esoteric programming language inspired by spacing between gray slabs at the park. IMSP is an acronym, which stands for  **I**nterval **M**ejdu **S**erymi **P**litami (Spacing Between Gray Slabs) Needs Python 3.10 or higher
 
 ## Usage ## 
 Download `imsp.py` and run your programs like this
